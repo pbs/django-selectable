@@ -1,7 +1,11 @@
-This was forked from 'mlavin/django-selectable' in March 2023 especially for LearningMedia project. LearningMedia is upgrading to Django4 and as the mlavin repo is not maintained anymore and we found no other trustworthy up to date maintained fork, we needed to fork it ourselves.
+PBS FORK NOTE
+===================
+This was forked in PBS organization from 'mlavin/django-selectable' in March 2023 especially for LearningMedia project. LearningMedia is upgrading to Django4 and as the mlavin repo is not maintained anymore and we found no other trustworthy up to date maintained fork, we needed to fork it ourselves.
 
 Original fork repo: https://github.com/mlavin/django-selectable
+
 Original package page: https://pypi.org/project/django-selectable/
+
 
 django-selectable
 ===================
