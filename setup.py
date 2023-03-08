@@ -14,13 +14,13 @@ def read_file(filename):
 
 
 setup(
-    name='django-selectable',
+    name='django-selectable-pbs',
     version=__import__('selectable').__version__,
-    author='Mark Lavin',
-    author_email='markdlavin@gmail.com',
+    author='Learning Media Team',
+    author_email='tpg-pbs-learning-media@threepillarglobal.com',
     packages=find_packages(exclude=['example']),
     include_package_data=True,
-    url='https://github.com/mlavin/django-selectable',
+    url='https://github.com/pbs/django-selectable',
     license='BSD',
     description=' '.join(__import__('selectable').__doc__.splitlines()).strip(),
     classifiers=[
@@ -32,6 +32,7 @@ setup(
         'Framework :: Django :: 2.1',
         'Framework :: Django :: 2.2',
         'Framework :: Django :: 3.0',
+        'Framework :: Django :: 4.1',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
@@ -39,6 +40,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     long_description=read_file('README.rst'),
